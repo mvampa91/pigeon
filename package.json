@@ -4,7 +4,7 @@
   "description": "Node app",
   "main": "app.js",
   "scripts": {
-    "start": "node ./node_modules/cross-env/src/bin/cross-env.js NODE_ENV=production node app.js",
+    "start": "NODE_ENV=production node app.js",
     "dev": "cross-env NODE_ENV=development nodemon app.js"
   },
   "author": "Marco Vampa",
